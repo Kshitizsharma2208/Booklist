@@ -1,0 +1,125 @@
+.Container{
+
+    .Header {
+        background-color: #2196f3;
+
+        .headerTitle {
+            text-align: left;
+            font-size: 25px;
+            margin: 0;
+            padding: 12px 20px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+
+    .landing {
+        display: flex;
+
+        .sidebar {
+            background-color: white;
+            padding: 12px 0;
+            text-align: left;
+            min-width: 250px;
+
+            .sidebarContent {
+                padding: 10px 20px;
+
+                .list {
+                    font-weight: 500;
+                    font-size: 17px;
+                }
+
+                .list2 {
+                    padding-top: 15px;
+                    font-weight: 500;
+                    font-size: 17px;
+
+                }
+            }
+        }
+
+        .booklist {
+            width: calc(100% - 200px);
+
+            .booklistHeader {
+                padding: 18px 20px;
+                text-align: left;
+                background-color: #00359663;
+
+                .headerTitle {
+                    padding: 0;
+                    margin: 0;
+                    padding-bottom: 12px;
+                    font-weight: 500;
+                }
+
+                .booksLibrary {
+                    background-color: white;
+
+                    .book_1 {
+                        display: flex;
+                        padding: 20px 15px;
+                        border-bottom: 2px solid #f7f7f7;
+                        justify-content: space-between;
+
+                        .bookLeft {
+                            display: flex;
+
+                            .bookTemplate {
+                                .bookTemp {
+                                    width: 70px;
+                                    height: 105px;
+                                }
+                            }
+                            
+                            .bookDetails {
+                                padding-top: 5px;
+                                padding-left: 35px;
+    
+                                .bookName {
+                                    padding: 0;
+                                    margin: 0;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                }
+    
+                                .bookCreater {
+                                    padding: 0;
+                                    margin: 0;
+                                    padding-top: 5px;
+                                    font-size: 14px;
+                                    font-weight: 600;
+    
+                                }
+    
+                                .bookcreatedTime {
+                                    padding: 0;
+                                    margin: 0;
+                                    color: #4a4a4a;
+                                    padding-top: 5px;
+                                    font-size: 14px;
+                                    font-weight: 600;
+    
+                                }
+                            }
+                        }
+
+                        .bookRight {
+                            .editButton {
+                             .editBook {
+                                    width: 65px;
+                                    height: 32px;
+                                    background-color: #2196f3;
+                                    border: none;
+                                    color: white;
+                                }
+                            }
+                        }                  
+                    }
+                }
+            }
+        }
+    }
+
+}
