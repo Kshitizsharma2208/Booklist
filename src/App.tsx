@@ -7,6 +7,7 @@ import ShadowBaoxComponent from "./component/shadowbox";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import LoginComponent from "./pages/login";
 import BooklistComponent from "./pages/booklist";
+import Reliance from "./pages/reliance/reliance";
 function App() {
   const menuItems: Array<String> = ["Menu 1", "Menu 2", "Menu 3", "Menu4"];
   const [menues, setMenues]: Array<any> = useState([]);
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginComponent />} />
           <Route path="/booklist" element={<BooklistComponent />} />
+          <Route path="/reliance" element={<Reliance />} />
         </Routes>
       </BrowserRouter>
     </div>
