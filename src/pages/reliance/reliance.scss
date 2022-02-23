@@ -19,6 +19,7 @@ html {
       text-align: center;
 
       .text {
+        box-shadow: 2px 4px 4px 5px #f1eef7;
         margin: 0;
         background-color: white;
         border: 1px #4a4a4a;
@@ -27,6 +28,7 @@ html {
         color: #051155fc;
         font-size: 20px;
         font-weight: 500;
+        padding-top: 0;
       }
     }
   }
@@ -119,7 +121,7 @@ html {
        
         .box {
             background-color: #fff;
-            box-shadow: 1px 1px 0 #f1eef7;
+            box-shadow: 2px 4px 4px 5px #f1eef7;
             border-radius: 4px; 
             padding: 15px 20px;
             margin-top: 30px;   
